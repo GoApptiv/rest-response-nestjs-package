@@ -27,7 +27,6 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "author": "Sagar Vaghela <sagar.vaghela@goapptiv.com>",
-  "license": "MIT",
   "dependencies": {
     "@nestjs/common": "^8.0.0",
     "class-validator": "^0.13.2"
