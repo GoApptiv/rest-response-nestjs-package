@@ -1,6 +1,6 @@
 {
   "name": "@goapptiv/rest-response-nestjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package provides classes to generate goapptiv standard rest response",
   "main": "dist/index.js",
   "keywords": [

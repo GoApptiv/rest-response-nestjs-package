@@ -1,4 +1,4 @@
-export { SystemErrors as ResponseResponseErrorCode } from './constants/errors.enum';
+export { SystemErrors as RestResponseErrorCode } from './constants/errors.enum';
 export { GaException } from './interfaces/ga-exception.interface';
 export {
   ResponseSuccess,
