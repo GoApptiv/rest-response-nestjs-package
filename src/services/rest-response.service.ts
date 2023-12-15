@@ -8,7 +8,7 @@ import {
 
 export class RestResponse {
   /**
-   * build success response
+   * Build success response
    */
   static success(data: Record<string, any> | string): ResponseSuccess {
     return {
@@ -19,7 +19,7 @@ export class RestResponse {
   }
 
   /**
-   * build response error
+   * Build response error
    */
   static error(
     message: string,
@@ -34,7 +34,7 @@ export class RestResponse {
   }
 
   /**
-   * transforms class validator error to key value pair
+   * Transforms class validator error to key value pair
    */
   static transformValidationError(
     validationErrors: Array<ValidationError>,
@@ -65,7 +65,7 @@ export class RestResponse {
   }
 
   /**
-   * maps validation error children to validation errors
+   * Maps validation error children to validation errors
    */
   private static mapChildrenToValidationErrors(
     error: ValidationError,
